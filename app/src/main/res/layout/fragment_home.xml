@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:paddingBottom="?attr/actionBarSize"
+       android:background="@color/white">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="40dp"
+           android:paddingVertical="30dp"
+           android:text="A Vacina e o Mundo!"
+           android:textStyle="bold"
+           android:background="@color/purple_700"
+           android:textColor="@color/white"
+           android:textAlignment="center"
+           android:textSize="30dp"/>
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="250dp"
+                   app:srcCompat="@drawable/health_professional_team_bro" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="40dp"
+                   android:paddingVertical="20dp"
+                   android:text="O nosso planeta já passou por diversas pandemias, porém cada vez mais podemos contar com os avanços na medicina, criando novos tratamentos
+e curas para enfrentarmos situações como essas!"
+                   android:textColor="@color/black"
+                   android:textAlignment="center"
+                   android:textSize="20dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="40dp"
+                   android:paddingVertical="30dp"
+                   android:paddingHorizontal="30dp"
+                   android:text="Temos grandes exemplos na história em que nos humanos se
+deparamos com alguma doença, porém conforme caminhamos na linha do tempo até hodiernamente,
+vemos um grande avanço na medicina e na forma de lidar com essas situações!"
+                   android:background="@color/purple_700"
+                   android:textColor="@color/white"
+                   android:textAlignment="center"
+                   android:textSize="20dp"/>
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="250dp"
+                   android:layout_marginTop="10dp"
+                   app:srcCompat="@drawable/researchers_bro" />
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="40dp"
+                   android:paddingVertical="20dp"
+                   android:text="A vacina é uma peça muito importante na luta
+contra as infermidades, fazendo com que as pandemias cheguem ao seu fim muito
+mais rápido!"
+                   android:textColor="@color/black"
+                   android:textAlignment="center"
+                   android:textSize="20dp"/>
+
+
+
+           </LinearLayout>
+
+       </ScrollView>
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
