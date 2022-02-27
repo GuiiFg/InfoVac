@@ -6,17 +6,202 @@
     android:layout_height="match_parent"
     tools:context=".ui.dashboard.DashboardFragment">
 
-    <TextView
-        android:id="@+id/text_dashboard"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Em quais situações eu não devo ser vacinado(a)?"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Pessoas com hipersensibilidade a algum de seus componentes;"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Pessoas em imunossupressão;"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Pessoas em tratamento contra o câncer;"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Pessoas com febre ou com alguma doença em atividade;"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Recomendação: cura ou estabilização da doença em atividade antes de receber a vacina."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Pessoas com infecção ativa da COVID-19 (Resultado positivo pelo RT-PCR);"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="A vacina pode causar COVID-19?"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Não. Os dois imunizantes utilizam vírus inativado em sua composição e são cuidadosamente modificados para que a capacidade de infecção seja anulada. Os testes pré-clínicos e clínicos de ambas as vacinas comprovam a segurança dessa informação, bem como a própria aprovação da ANVISA (Agência Nacional de Vigilância Sanitária).;"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Já tive COVID-19. Ainda assim preciso ser vacinado?"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Sim. Ainda que teoricamente a pessoa que já tenha sido exposta ao coronavírus naturalmente tenha desenvolvido anticorpos, ainda não existem estudos que comprovem uma imunidade equivalente àqueles que receberam somente a vacina. Contudo, vale ressaltar que aqueles que estiverem com a doença ativa, confirmado pelo RT-PCR, devem aguardar o tempo de isolamento doméstico, além de um intervalo de 30 dias antes de receber a vacina."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Posso escolher qual vacina receber?"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="As vacinas desenvolvidas contra a COVID-19 e aplicadas no Brasil devem ser aprovadas pela ANVISA, ou seja, todas elas são seguras e possuem sua eficácia comprovada. Portanto, não existe uma justificativa técnica para dar preferência a uma vacina específica, uma vez que ambas garantem a proteção necessária neste momento da pandemia."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Quais são os efeitos colaterais da vacina?"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="Em geral, não existe nenhum efeito grave associado às vacinas. Contudo, algumas pessoas podem apresentar desde reações locais até reações pelo restante do corpo, sendo elas:
+No local da aplicação: dor, vermelhidão, inchaço, alteração de sensibilidade;
+No restante do corpo: fadiga, dor de cabeça, dor muscular, calafrios, febre, náusea.
+Atenção: caso os sintomas após o recebimento do imunizante tragam desconforto intenso, prolongado ou que tragam preocupação a você, não deixe de comunicar a um médico e busque auxílio assim que possível.
+"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/speech_bubbles_bro"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

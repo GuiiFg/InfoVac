@@ -45,6 +45,16 @@
                    android:layout_height="wrap_content"
                    android:layout_marginHorizontal="40dp"
                    android:paddingVertical="20dp"
+                   android:text="O Brasil é um dos países que oferece o maior número de vacinas à população. Atualmente, o PNI disponibiliza mais de 300 milhões de doses anuais distribuídas entre 44 imunobiológicos, incluindo vacinas, soros e imunoglobulinas."
+                   android:textColor="@color/black"
+                   android:textAlignment="center"
+                   android:textSize="20dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="40dp"
+                   android:paddingVertical="20dp"
                    android:text="O nosso planeta já passou por diversas pandemias, porém cada vez mais podemos contar com os avanços na medicina, criando novos tratamentos
 e curas para enfrentarmos situações como essas!"
                    android:textColor="@color/black"

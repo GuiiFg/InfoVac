@@ -6,17 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".ui.notifications.NotificationsFragment">
 
-    <TextView
-        android:id="@+id/text_notifications"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Orientações sobre vacinação"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="O Programa Nacional de Imunização inclui várias vacinas, que podem ser classificadas em três categorias: de rotina, situações especiais e as vacinas obrigatórias para viajantes, exigidas por determinação legal."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Vacinas de rotina"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="São aquelas incluídas nos calendários básicos de vacinação, indicadas rotineiramente para crianças, adolescentes, adultos, pessoas acima de 60 anos e gestantes. Estas vacinas estão disponíveis em todas as UBSs.
+Procure a unidade mais próxima de sua casa para verificar sua situação vacinal e a necessidade de vacinação."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="20dp"
+                    android:paddingHorizontal="20dp"
+                    android:text="Gestantes, puérperas e lactantes"
+                    android:textStyle="bold"
+                    android:background="@color/purple_700"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="40dp"
+                    android:paddingVertical="2dp"
+                    android:text="A segurança e eficácia das vacinas não foram avaliadas nos grupos de gestantes, puérperas e lactantes. Para as mulheres, pertencentes a um dos grupos prioritários, que se apresentem nestas condições, a vacinação poderá ser realizada após avaliação cautelosa dos riscos e benefícios e com decisão compartilhada, entre a mulher e o médico prescritor."
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
