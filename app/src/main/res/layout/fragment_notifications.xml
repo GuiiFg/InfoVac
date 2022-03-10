@@ -25,7 +25,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
                     android:paddingVertical="20dp"
                     android:paddingHorizontal="20dp"
                     android:text="Orientações sobre vacinação"
@@ -38,7 +37,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="20dp"
                     android:paddingVertical="2dp"
                     android:text="O Programa Nacional de Imunização inclui várias vacinas, que podem ser classificadas em três categorias: de rotina, situações especiais e as vacinas obrigatórias para viajantes, exigidas por determinação legal."
                     android:textColor="@color/black"
@@ -49,7 +49,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
                     android:paddingVertical="20dp"
                     android:paddingHorizontal="20dp"
                     android:text="Vacinas de rotina"
@@ -62,7 +61,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="20dp"
                     android:paddingVertical="2dp"
                     android:text="São aquelas incluídas nos calendários básicos de vacinação, indicadas rotineiramente para crianças, adolescentes, adultos, pessoas acima de 60 anos e gestantes. Estas vacinas estão disponíveis em todas as UBSs.
 Procure a unidade mais próxima de sua casa para verificar sua situação vacinal e a necessidade de vacinação."
@@ -73,7 +73,6 @@ Procure a unidade mais próxima de sua casa para verificar sua situação vacina
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
                     android:paddingVertical="20dp"
                     android:paddingHorizontal="20dp"
                     android:text="Gestantes, puérperas e lactantes"
@@ -86,7 +85,8 @@ Procure a unidade mais próxima de sua casa para verificar sua situação vacina
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="40dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="20dp"
                     android:paddingVertical="2dp"
                     android:text="A segurança e eficácia das vacinas não foram avaliadas nos grupos de gestantes, puérperas e lactantes. Para as mulheres, pertencentes a um dos grupos prioritários, que se apresentem nestas condições, a vacinação poderá ser realizada após avaliação cautelosa dos riscos e benefícios e com decisão compartilhada, entre a mulher e o médico prescritor."
                     android:textColor="@color/black"
