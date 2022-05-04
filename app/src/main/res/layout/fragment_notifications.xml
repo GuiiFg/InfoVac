@@ -34,6 +34,11 @@
                     android:textAlignment="center"
                     android:textSize="20dp"/>
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/coronavirus_second_wave_cuate"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -58,6 +63,11 @@
                     android:textAlignment="center"
                     android:textSize="20dp"/>
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/fighting_against_coronavirus_amico"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -81,6 +91,11 @@ Procure a unidade mais próxima de sua casa para verificar sua situação vacina
                     android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textSize="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/pregnancy_stages_bro"/>
 
                 <TextView
                     android:layout_width="match_parent"

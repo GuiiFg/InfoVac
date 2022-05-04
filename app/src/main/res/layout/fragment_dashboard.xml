@@ -34,6 +34,11 @@
                     android:textAlignment="center"
                     android:textSize="20dp"/>
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/pregnancy_test_bro" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -108,6 +113,11 @@
                     android:textAlignment="center"
                     android:textSize="20dp"/>
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/ffp2_face_mask_amico"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -132,6 +142,11 @@
                     android:textAlignment="center"
                     android:textSize="20dp"/>
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/vaccine_bro"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -154,6 +169,11 @@
                     android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textSize="20dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/humanitarian_help_amico"/>
 
                 <TextView
                     android:layout_width="match_parent"

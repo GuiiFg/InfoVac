@@ -8,7 +8,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,6 +25,11 @@
                 android:textColor="@color/white"
                 android:textAlignment="center"
                 android:textSize="30dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/developer_activity_bro" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -46,6 +52,33 @@
                 android:textAlignment="center"
                 android:textSize="20dp"/>
 
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:paddingTop="20dp"
+                android:text="Ferrementas de Desenvolvimento"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:paddingBottom="20dp"
+                android:text="Layout - Figma\nBuild/source - Android Studio\nIlustrações - storyset.com\nVocê pode encontrar o sourceCode no GitHub:\nhttps://github.com/GuiiFg/InfoVac"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/timeline_bro"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,10 +95,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:paddingBottom="20dp"
-                android:text="Turma Ciência da Computação / 5º Semestre\nProfessor Vinicius dos Santos\nProjeto dedicado integramente a instituição Irmã Adelaide"
+                android:text="Turma Ciência da Computação\n5º Semestre\nProfessor Vinicius dos Santos\nProjeto dedicado integramente a instituição Irmã Adelaide\ne OpenSource para fins de estudos para qualquer pessoa interessada"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/data_extraction_bro"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -83,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:paddingBottom="20dp"
-                android:text="Todos os dados foram retirados do site governamental saude.govs.slaoq"
+                android:text="Todos os dados foram retirados do site governamental saude.gov.com\ngarantindo a integridade das informações e deixando a disposição para novas questões não abordadas dentro do app!"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20dp"/>
