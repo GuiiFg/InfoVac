@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:paddingBottom="20dp"
-                android:text="Todos os dados foram retirados do site governamental saude.gov.com\ngarantindo a integridade das informações e deixando a disposição para novas questões não abordadas dentro do app!"
+                android:text="Todos os dados foram retirados do sites governamentais:\nbvsms.saude.gov.com\nsaobernardo.sp.gov.br\ngarantindo a integridade das informações e deixando a disposição para novas questões não abordadas dentro do app!"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20dp"/>
