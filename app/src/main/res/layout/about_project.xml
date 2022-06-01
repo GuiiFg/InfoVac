@@ -69,10 +69,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:paddingBottom="20dp"
-                android:text="Layout - Figma\nBuild/source - Android Studio\nIlustrações - storyset.com\nVocê pode encontrar o sourceCode no GitHub:\nhttps://github.com/GuiiFg/InfoVac"
+                android:text="Layout - Figma\nBuild/source - Android Studio\nIlustrações - storyset.com\nVocê pode encontrar o sourceCode no GitHub:"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/btn_github"
+                android:onClick="RedirectToGithub"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="30dp"
+                android:text="https://github.com/GuiiFg/InfoVac"/>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -95,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:paddingBottom="20dp"
-                android:text="Turma Ciência da Computação\n5º Semestre\nProfessor Vinicius dos Santos\nProjeto dedicado integramente a instituição Irmã Adelaide\ne OpenSource para fins de estudos para qualquer pessoa interessada"
+                android:text="Turma Ciência da Computação\n5º Semestre\nProfessor Vinicius Santos Andrade\nProjeto dedicado integramente a instituição Irmã Adelaide\ne OpenSource para fins de estudos para qualquer pessoa interessada"
                 android:textColor="@color/black"
                 android:textAlignment="center"
                 android:textSize="20dp"/>

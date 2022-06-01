@@ -24,6 +24,7 @@ public class AboutprojectFragment extends Fragment {
         binding = AboutProjectBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
+
         return root;
     }
 

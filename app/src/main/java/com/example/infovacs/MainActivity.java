@@ -1,6 +1,9 @@
 package com.example.infovacs;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -34,4 +37,9 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    public void RedirectToGithub(View view) {
+        Intent myIntent = new Intent(Intent.ACTION_VIEW);
+        myIntent.setData(Uri.parse("https://github.com/GuiiFg/InfoVac"));
+        startActivity(myIntent);
+    }
 }
